@@ -1,0 +1,116 @@
+[
+    {
+        "nome": "Maignan",
+        "ruolo": "P",
+        "squadra": "Milan",
+        "punteggio": 7.5
+    },
+    {
+        "nome": "Provedel",
+        "ruolo": "P",
+        "squadra": "Lazio",
+        "punteggio": 7.0
+    },
+    {
+        "nome": "Dimarco",
+        "ruolo": "D",
+        "squadra": "Inter",
+        "punteggio": 7.2
+    },
+    {
+        "nome": "Bremer",
+        "ruolo": "D",
+        "squadra": "Juventus",
+        "punteggio": 6.8
+    },
+    {
+        "nome": "Biraghi",
+        "ruolo": "D",
+        "squadra": "Fiorentina",
+        "punteggio": 6.6
+    },
+    {
+        "nome": "Buongiorno",
+        "ruolo": "D",
+        "squadra": "Torino",
+        "punteggio": 6.9
+    },
+    {
+        "nome": "Bastoni",
+        "ruolo": "D",
+        "squadra": "Parma",
+        "punteggio": 6.7
+    },
+    {
+        "nome": "Martinez Quarta",
+        "ruolo": "D",
+        "squadra": "Venezia",
+        "punteggio": 6.6
+    },
+    {
+        "nome": "Koopmeiners",
+        "ruolo": "C",
+        "squadra": "Atalanta",
+        "punteggio": 7.4
+    },
+    {
+        "nome": "Pellegrini",
+        "ruolo": "C",
+        "squadra": "Roma",
+        "punteggio": 7.0
+    },
+    {
+        "nome": "Lobotka",
+        "ruolo": "C",
+        "squadra": "Napoli",
+        "punteggio": 6.8
+    },
+    {
+        "nome": "Fagioli",
+        "ruolo": "C",
+        "squadra": "Monza",
+        "punteggio": 6.9
+    },
+    {
+        "nome": "Ferguson",
+        "ruolo": "C",
+        "squadra": "Bologna",
+        "punteggio": 7.0
+    },
+    {
+        "nome": "Gudmundsson",
+        "ruolo": "A",
+        "squadra": "Genoa",
+        "punteggio": 7.5
+    },
+    {
+        "nome": "Berardi",
+        "ruolo": "A",
+        "squadra": "Sassuolo",
+        "punteggio": 7.3
+    },
+    {
+        "nome": "Orsolini",
+        "ruolo": "A",
+        "squadra": "Lecce",
+        "punteggio": 7.1
+    },
+    {
+        "nome": "Retegui",
+        "ruolo": "A",
+        "squadra": "Cagliari",
+        "punteggio": 7.0
+    },
+    {
+        "nome": "Nzola",
+        "ruolo": "A",
+        "squadra": "Empoli",
+        "punteggio": 6.9
+    },
+    {
+        "nome": "Lind",
+        "ruolo": "A",
+        "squadra": "Pisa",
+        "punteggio": 6.4
+    }
+]

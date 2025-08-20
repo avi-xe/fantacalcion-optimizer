@@ -1,0 +1,26 @@
+[
+    {
+        "casa": "Milan",
+        "trasferta": "Genoa",
+        "segno": "1",
+        "ou": "Over"
+    },
+    {
+        "casa": "Roma",
+        "trasferta": "Inter",
+        "segno": "X",
+        "ou": "Under"
+    },
+    {
+        "casa": "Sassuolo",
+        "trasferta": "Juventus",
+        "segno": "2",
+        "ou": "Over"
+    },
+    {
+        "casa": "Napoli",
+        "trasferta": "Atalanta",
+        "segno": "1",
+        "ou": "Over"
+    }
+]
