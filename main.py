@@ -1,10 +1,9 @@
-from fantacalcion.optimization import (
-    MODULI_AMMESSI,
-    applica_calendario,
-    ottimizza_formazione,
-    check_input_validity,
-)
 from json import load
+
+from fantacalcion.calendar import applica_calendario
+from fantacalcion.const import MODULI_AMMESSI
+from fantacalcion.optimization import ottimizza_formazione
+from fantacalcion.utils import check_input_validity
 
 if __name__ == "__main__":
     with open("giocatori.json") as f:
