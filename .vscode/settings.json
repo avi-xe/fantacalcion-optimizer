@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "pianeta_fanta",
+            "database": "pianeta_fanta.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

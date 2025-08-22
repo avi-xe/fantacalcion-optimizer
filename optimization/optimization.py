@@ -2,8 +2,8 @@
 from typing import List, Dict, Tuple, Optional
 import pulp
 
-from fantacalcion.const import MODULI_AMMESSI
-from fantacalcion.utils import _bonus_modificatore_difesa, check_input_validity
+from optimization.const import MODULI_AMMESSI
+from optimization.utils import _bonus_modificatore_difesa, check_input_validity
 
 
 def ottimizza_formazione(

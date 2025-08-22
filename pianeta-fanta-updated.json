@@ -1,0 +1,2407 @@
+[
+  {
+    "casa": {
+      "squadra": "GENOA",
+      "titolari": [
+        {
+          "nome": "LEALI N.",
+          "ruolo": "P",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "MARTIN A.",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "VASQUEZ J.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "OSTIGARD L.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "NORTON-CUFFY B.",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "MALINOVSKYI R.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "FRENDRUP M.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "STANCIU N.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "GRONBAEK A.",
+          "ruolo": "C",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "CARBONI V.",
+          "ruolo": "C",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "COLOMBO L.",
+          "ruolo": "A",
+          "valutazione": 5.5
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "SIEGRIST B.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SOMMARIVA D.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "VOGLIACCO A.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MARCANDALLI A.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SABELLI S.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MESSIAS J.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ELLERTSSON M.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "EKHATOR J.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "THORSBY M.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MASINI P.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "CUENCA H.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "VITINHA",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    },
+    "trasferta": {
+      "squadra": "LECCE",
+      "titolari": [
+        {
+          "nome": "FALCONE W.",
+          "ruolo": "P",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "GALLO A.",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "GABRIEL T.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "GASPAR K.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "KOUASSI T.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "PIERRET B.",
+          "ruolo": "C",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "COULIBALY L.",
+          "ruolo": "C",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "HELGASON T.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "MORENTE T.",
+          "ruolo": "A",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "N'DRI K.",
+          "ruolo": "A",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "CAMARDA F.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "SAMOOJA J.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "FRUCHTL C.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "VEIGA D.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "PEREZ M.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "NDABA C.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "RAFIA H.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BERISHA M.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "KABA M.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MALEH Y.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BANDA L.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MALEH Y.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SOTTIL R.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "casa": {
+      "squadra": "SASSUOLO",
+      "titolari": [
+        {
+          "nome": "TURATI S.",
+          "ruolo": "P",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "DOIG J.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "IDZES J.",
+          "ruolo": "D",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "MUHAREMOVIC T.",
+          "ruolo": "D",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "WALUKIEWICZ S.",
+          "ruolo": "D",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "GHION A.",
+          "ruolo": "C",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "KONE I.",
+          "ruolo": "C",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "BOLOCA D.",
+          "ruolo": "C",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "BERARDI D.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "LAURIENTE A.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "PINAMONTI A.",
+          "ruolo": "A",
+          "valutazione": 6.5
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "RUSSO A.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "PAZ Y.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ODENTHAL C.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "TRESSOLDI R.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ROMAGNA F.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "CALIGARA F.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "FADERA A.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "IANNONI E.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SKJELLERUP L.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "KUMI J.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "THORSTVEDT K.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ALVAREZ A.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    },
+    "trasferta": {
+      "squadra": "NAPOLI",
+      "titolari": [
+        {
+          "nome": "MERET A.",
+          "ruolo": "P",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "DI LORENZO G.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "RRAHMANI A.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "BUONGIORNO A.",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "OLIVERA M.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "ANGUISSA A.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "LOBOTKA S.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "MCTOMINAY S.",
+          "ruolo": "C",
+          "valutazione": 7.5
+        },
+        {
+          "nome": "POLITANO M.",
+          "ruolo": "A",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "DE BRUYNE K.",
+          "ruolo": "C",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "LUCCA L.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "CONTINI N.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MILINKOVIC V.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "JESUS J.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MARIANUCCI L.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MAZZOCCHI P.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SPINAZZOLA L.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ZANOLI A.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BEUKEMA S.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "HASA L.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "GILMOUR B.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "NERES D.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "LANG N.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "casa": {
+      "squadra": "MILAN",
+      "titolari": [
+        {
+          "nome": "MAIGNAN M.",
+          "ruolo": "P",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "TOMORI F.",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "PAVLOVIC S.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "GABBIA M.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "SAELEMAEKERS A.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "RICCI S.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "FOFANA Y.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "LOFTUS-CHEEK R.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "ESTUPINAN P.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "PULISIC C.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "GIMENEZ Santiago",
+          "ruolo": "A",
+          "valutazione": 6.5
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "TERRACCIANO P.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "TORRIANI L.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BARTESAGHI D.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DE WINTER K.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "JIMENEZ A.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ATHEKAME Z.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MUSAH Y.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "CHUKWUEZE S.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MODRIC L.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "JASHARI A.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        }
+      ]
+    },
+    "trasferta": {
+      "squadra": "CREMONESE",
+      "titolari": [
+        {
+          "nome": "AUDERO E.",
+          "ruolo": "P",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "PEZZELLA GI.",
+          "ruolo": "D",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "BIANCHETTI M.",
+          "ruolo": "D",
+          "valutazione": 4.5
+        },
+        {
+          "nome": "BASCHIROTTO F.",
+          "ruolo": "D",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "TERRACCIANO F.",
+          "ruolo": "D",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "VANDEPUTTE J.",
+          "ruolo": "C",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "BONDO W.",
+          "ruolo": "C",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "COLLOCOLO M.",
+          "ruolo": "C",
+          "valutazione": 4.5
+        },
+        {
+          "nome": "ZERBIN A.",
+          "ruolo": "A",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "DE LUCA M.",
+          "ruolo": "A",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "BONAZZOLI F.",
+          "ruolo": "A",
+          "valutazione": 5.5
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "SILVESTRI M.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "NAVA L.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "CECCHERINI F.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "FOLINO F.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "FLORIANI MUSSOLINI",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SERNICOLA L.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "GRASSI A.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "CASTAGNETTI M.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "JOHNSEN D.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "OKEREKE D.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "GABBIANI G.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "casa": {
+      "squadra": "ROMA",
+      "titolari": [
+        {
+          "nome": "SVILAR M.",
+          "ruolo": "P",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "NDICKA E.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "MANCINI G.",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "GHILARDI D.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "WESLEY",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "EL AYNAOUI N.",
+          "ruolo": "C",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "KONE M.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "ANGELINO J.",
+          "ruolo": "D",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "SOULE M.",
+          "ruolo": "A",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "DYBALA P.",
+          "ruolo": "A",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "FERGUSON E.",
+          "ruolo": "A",
+          "valutazione": 6.5
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "GOLLINI P.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "VASQUEZ D.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "RENSCH D.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "HERMOSO M.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SALAH-EDDINE A.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BALDANZI T.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "EL SHAARAWY S.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "CRISTANTE B.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "PISILLI N.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DOVBYK A.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    },
+    "trasferta": {
+      "squadra": "BOLOGNA",
+      "titolari": [
+        {
+          "nome": "SKORUPSKI L.",
+          "ruolo": "P",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "DE SILVESTRI L.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "VITIK M.",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "LUCUMI J.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "LYKOGIANNIS C.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "FREULER R.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "POBEGA T.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "ODGAARD J.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "ORSOLINI R.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "CAMBIAGHI N.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "CASTRO S.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "RAVAGLIA F.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "CASALE N.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "POSCH S.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ILIC M.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MORO N.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "FABBIAN G.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "FERGUSON L.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DOMINGUEZ B.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DALLINGA T.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "KARLSSON J.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "IMMOBILE C.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "casa": {
+      "squadra": "CAGLIARI",
+      "titolari": [
+        {
+          "nome": "CAPRILE E.",
+          "ruolo": "P",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "IDRISSI R.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "MINA Y.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "LUPERTO S.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "DEIOLA A.",
+          "ruolo": "C",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "ZAPPA G.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "ADOPO M.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "FOLORUNSHO M.",
+          "ruolo": "C",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "PRATI M.",
+          "ruolo": "C",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "ESPOSITO S.",
+          "ruolo": "A",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "PICCOLI R.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "RADUNOVIC B.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "OBERT A.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DI PARDO A.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "CAVUOTI N.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "FELICI M.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MAZZITELLI L.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "GAETANO G.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "LUVUMBO S.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BORRELLI G.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "KILICSOY S.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "VINCIGUERRA A.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ROG M.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        }
+      ]
+    },
+    "trasferta": {
+      "squadra": "FIORENTINA",
+      "titolari": [
+        {
+          "nome": "DE GEA D.",
+          "ruolo": "P",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "COMUZZO P.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "RANIERI L.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "PONGRACIC M.",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "DODO",
+          "ruolo": "D",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "FAGIOLI N.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "SOHM S.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "GOSENS Robin",
+          "ruolo": "D",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "GUDMUNDSSON A.",
+          "ruolo": "A",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "DZEKO E.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "KEAN M.",
+          "ruolo": "A",
+          "valutazione": 7.5
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "MARTINELLI T.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "LEZZERINI L.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "PARISI F.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "VITI M.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "FORTINI N.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BIANCO A.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "FAZZINI J.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SABIRI A.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "RICHARDSON A.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MANDRAGORA R.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "NDOUR C.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BELTRAN L.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "casa": {
+      "squadra": "COMO",
+      "titolari": [
+        {
+          "nome": "BUTEZ J.",
+          "ruolo": "P",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "VOJVODA M.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "VAN DER BREMPT I.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "KEMPF M.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "VALLE A.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "PAZ N.",
+          "ruolo": "C",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "PERRONE M.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "BATURINA M.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "RODRIGUEZ J.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "DIAO A.",
+          "ruolo": "A",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "MORATA A.",
+          "ruolo": "A",
+          "valutazione": 6.5
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "VIGORITO M.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MENKE",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "GOLDANIGA E.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ROBERTO S.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MORENO A.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "JACK F.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "RAMON J.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ENGELHARDT Y.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DA CUNHA L.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "CAQUERET M.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "CUTRONE P.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DOUVIKAS T.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    },
+    "trasferta": {
+      "squadra": "LAZIO",
+      "titolari": [
+        {
+          "nome": "PROVEDEL I.",
+          "ruolo": "P",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "MARUSIC A.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "GILA M.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "PROVSTGAARD O.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "NUNO TAVARES",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "DELE-BASHIRU F.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "GUENDOUZI M.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "ROVELLA N.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "CANCELLIERI M.",
+          "ruolo": "A",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "CASTELLANOS V.",
+          "ruolo": "A",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "ZACCAGNI M.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "MANDAS C.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "FURLANETTO A.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "LAZZARI M.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "HYSAJ E.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "PELLEGRINI Lu.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BASIC T.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BELAHYANE R.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "CATALDI D.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "VECINO M.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DIA B.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "NOSLIN T.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "PEDRO",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "casa": {
+      "squadra": "ATALANTA",
+      "titolari": [
+        {
+          "nome": "CARNESECCHI M.",
+          "ruolo": "P",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "ZAPPACOSTA D.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "DJIMSITI B.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "HIEN I.",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "KOSSOUNOU O.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "BELLANOVA R.",
+          "ruolo": "D",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "EDERSON",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "DE ROON M.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "DE KETELAERE C.",
+          "ruolo": "A",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "SAMARDZIC L.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "SCAMACCA G.",
+          "ruolo": "A",
+          "valutazione": 7.0
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "SPORTIELLO M.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SCALVINI G.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BONFANTI G.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "AHANOR H.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BERNASCONI L.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SULEMANA K.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SULEMANA",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "PASALIC M.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BRESCIANINI M.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ZALEWSKI N.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MALDINI D.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "TOURE El Bilal",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    },
+    "trasferta": {
+      "squadra": "PISA",
+      "titolari": [
+        {
+          "nome": "SEMPER A.",
+          "ruolo": "P",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "ANGORI S.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "CANESTRELLI S.",
+          "ruolo": "D",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "CARACCIOLO A.",
+          "ruolo": "D",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "CALABRESI A.",
+          "ruolo": "D",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "TOURE Id.",
+          "ruolo": "C",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "AEBISCHER M.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "AKINSANMIRO E.",
+          "ruolo": "C",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "MARIN M.",
+          "ruolo": "C",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "TRAMONI M.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "NZOLA M.",
+          "ruolo": "A",
+          "valutazione": 5.0
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "SCUFFET S.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "NICOLAS",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DENOON D.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "PICCININI G.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "HOJHOLT M.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "LERIS M.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MOREO S.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BUFFON L.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BONFANTI N.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "LIND A.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MEISTER H.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "VIGNATO E.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "casa": {
+      "squadra": "JUVENTUS",
+      "titolari": [
+        {
+          "nome": "DI GREGORIO M.",
+          "ruolo": "P",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "CAMBIASO A.",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "KALULU P.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "GATTI F.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "BREMER G.",
+          "ruolo": "D",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "MARIO J.",
+          "ruolo": "D",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "THURAM K.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "LOCATELLI M.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "CONCEICAO F.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "YILDIZ K.",
+          "ruolo": "A",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "DAVID J.",
+          "ruolo": "A",
+          "valutazione": 6.5
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "PERIN M.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BREMER G.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DJALO T.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "KELLY L.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SAVONA N.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ADZIC V.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ARTHUR",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "KOSTIC F.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MCKENNIE W.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MIRETTI F.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "GONZALEZ N.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MILIK A.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    },
+    "trasferta": {
+      "squadra": "PARMA",
+      "titolari": [
+        {
+          "nome": "SUZUKI Z.",
+          "ruolo": "P",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "VALERI E.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "VALENTI L.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "LOVIK M.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "CIRCATI A.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "DEL PRATO E.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "KEITA M.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "ORDONEZ C.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "BERNABE A.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "BENEDYCZAK A.",
+          "ruolo": "A",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "PELLEGRINO M.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "CORVI E.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BALOGH B.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "TRABUCCHI N.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "VALERI E.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ESTEVEZ N.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "HERNANI A.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ALMQVIST P.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BENEDYCZAK A.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "CHARPENTIER G.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DJURIC M.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BEGIC T.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "casa": {
+      "squadra": "UDINESE",
+      "titolari": [
+        {
+          "nome": "SAVA R.",
+          "ruolo": "P",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "ZEMURA J.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "SOLET O.",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "KRISTENSEN T.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "EHIZIBUE K.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "PALMA M.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "LOVRIC S.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "KARLSTROM J.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "ATTA A.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "DAVIS K.",
+          "ruolo": "A",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "BRAVO I.",
+          "ruolo": "A",
+          "valutazione": 5.5
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "PADELLI D.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "KABASELE C.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MODESTO R.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "PALMA M.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "GOGLICHIDZE S.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "PAYERO M.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "PEJICIC D.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ZARRAGA O.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "PIOTROWSKI J.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DAMIAN PIZARRO",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BRENNER S.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    },
+    "trasferta": {
+      "squadra": "VERONA",
+      "titolari": [
+        {
+          "nome": "MONTIPO L.",
+          "ruolo": "P",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "FRESE M.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "OYEGOKE D.",
+          "ruolo": "D",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "EBOSSE E.",
+          "ruolo": "D",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "NUNEZ U.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "BRADARIC D.",
+          "ruolo": "D",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "SERDAR S.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "NIASSE C.",
+          "ruolo": "C",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "BERNEDE A.",
+          "ruolo": "C",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "SARR A.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "GIOVANE Do N.",
+          "ruolo": "A",
+          "valutazione": 6.0
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "PERILLI S.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "KURTI A.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "OYEGOKE D.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SLOTSAGER T.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "YELLU S.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "HARROUI A.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "KASTANOS G.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MITROVIC S.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "LIVRAMENTO D.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SARR A.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "casa": {
+      "squadra": "INTER",
+      "titolari": [
+        {
+          "nome": "SOMMER Y.",
+          "ruolo": "P",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "PAVARD B.",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "ACERBI F.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "BASTONI A.",
+          "ruolo": "D",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "DUMFRIES D.",
+          "ruolo": "D",
+          "valutazione": 7.5
+        },
+        {
+          "nome": "BARELLA N.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "SUCIC P.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "MKHITARYAN H.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "DIMARCO F.",
+          "ruolo": "D",
+          "valutazione": 8.0
+        },
+        {
+          "nome": "THURAM M.",
+          "ruolo": "A",
+          "valutazione": 7.0
+        },
+        {
+          "nome": "MARTINEZ L.",
+          "ruolo": "A",
+          "valutazione": 7.5
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "MARTINEZ J.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DI GENNARO R.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DARMIAN M.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DE VRIJ S.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "LUIS HENRIQUE",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "CARLOS AUGUSTO",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BISSECK Y.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ASLLANI K.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ZIELINSKI P.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "FRATTESI D.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "TAREMI M.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "BONNY A.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    },
+    "trasferta": {
+      "squadra": "TORINO",
+      "titolari": [
+        {
+          "nome": "ISRAEL F.",
+          "ruolo": "P",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "BIRAGHI C.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "MASINA A.",
+          "ruolo": "D",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "COCO S.",
+          "ruolo": "D",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "PEDERSEN M.",
+          "ruolo": "D",
+          "valutazione": 5.0
+        },
+        {
+          "nome": "ANJORIN T.",
+          "ruolo": "C",
+          "valutazione": 5.5
+        },
+        {
+          "nome": "CASADEI C.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "ILKHAN E.",
+          "ruolo": "C",
+          "valutazione": 6.0
+        },
+        {
+          "nome": "NGONGE C.",
+          "ruolo": "A",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "VLASIC N.",
+          "ruolo": "C",
+          "valutazione": 6.5
+        },
+        {
+          "nome": "ADAMS C.",
+          "ruolo": "A",
+          "valutazione": 6.5
+        }
+      ],
+      "panchina": [
+        {
+          "nome": "PALEARI A.",
+          "ruolo": "P",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "DEMBELE' A.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ISMAJLI A.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "MASINA A.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "PEDERSEN M.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SCHUURS P.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SAZONOV S.",
+          "ruolo": "D",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "ILKHAN E.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "TAMEZE A.",
+          "ruolo": "C",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SANABRIA A.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        },
+        {
+          "nome": "SIMEONE G.",
+          "ruolo": "A",
+          "valutazione": 0.0
+        }
+      ]
+    }
+  }
+]

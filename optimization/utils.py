@@ -1,7 +1,7 @@
 from heapq import nlargest
 from typing import Dict, List, Tuple
 
-from fantacalcion.const import MODULI_AMMESSI
+from optimization.const import MODULI_AMMESSI
 
 
 def check_input_validity(giocatori: List[Dict], moduli=MODULI_AMMESSI, verbose=True):
