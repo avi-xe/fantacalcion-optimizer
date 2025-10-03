@@ -1,4 +1,4 @@
-from scraping_fbref import get_player_stats, get_team_stats
+from scraping_fbref import get_player_stats_from_page, get_team_stats_from_page
 from scraping_fantacalcio import get_probabili_formazioni
 from calendario import get_next_matches
 from scoring import compute_scores
@@ -6,8 +6,8 @@ from optimizer import best_eleven
 
 def main():
     print("🔄 Recupero dati da FBref...")
-    df_players = get_player_stats()
-    df_teams = get_team_stats()
+    df_players = get_player_stats_from_page()
+    df_teams = get_team_stats_from_page()
 
     print("🔄 Recupero probabili formazioni da Fantacalcio.it...")
     prob_set = get_probabili_formazioni()

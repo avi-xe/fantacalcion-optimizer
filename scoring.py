@@ -7,14 +7,14 @@ def compute_scores(df_players, df_teams, prob_set, calendario):
     df = df_players.copy()
 
     # Titolarità
-    df["Titolarità"] = df["Nome"].apply(lambda x: 2 if x in prob_set else 0)
+    df["Titolarità"] = df["Nome"].apply(lambda x: 2 if x in prob_set else 1)
 
     # Forma (gol+assist/90)
-    df["Forma"] = (df["Gol"] + df["Assist"]) / df["Nineties"]
+    df["Forma"] = (df["Performance_Gls"] + df["Performance_Ast"]) / df["Min"]
     df["Forma"] = df["Forma"].apply(lambda x: normalizza(x, 0, 1))
 
     # Bonus potenziale
-    df["BonusPot"] = (df["Gol"] + df["Assist"]).apply(lambda x: normalizza(x, 0, 10))
+    df["BonusPot"] = (df["Performance_Gls"] + df["Performance_Ast"]).apply(lambda x: normalizza(x, 0, 10))
 
     # Affidabilità (minuti giocati)
     max_min = df["Min"].max()
