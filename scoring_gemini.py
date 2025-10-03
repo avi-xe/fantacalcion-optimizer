@@ -1,6 +1,6 @@
 
 import pandas as pd
-import numpy as np
+from scraping_fbref_players_gemini import giocatori, portieri
 
 def scoring_gca(df_giocatori):
 
@@ -10,7 +10,7 @@ def scoring_gca(df_giocatori):
 
     # 1. Pulizia e Conversione Tipi
     # Converte le colonne in numerico, forzando errori a NaN (cruciale per '90s')
-    for col in ['Gls', 'xG', 'npxG', 'xAG', '90s']:
+    for col in ['Gls', 'xG', 'npxG', 'xAG', '90s', '%Gls', '%xG', '%npxG', '%xAG']:
         # Sostituisci i valori non validi/stringhe con NaN, poi converti in float
         df[col] = pd.to_numeric(df[col], errors='coerce')
 
@@ -38,41 +38,43 @@ def scoring_gca(df_giocatori):
 
     # Ordina per i migliori
     migliori_giocatori = df.sort_values(by='Total_Player_Score', ascending=False)
+    return migliori_giocatori
 
 
 def scoring_por(df_giocatori):
     # Assunzione: df_portieri è il tuo DataFrame delle Statistiche Portieri Avanzate
-    df_gk = df_portieri.copy()
-    min_90s_gk = 10 
+    df = df_giocatori.copy()
+    min_90s_gk = 5
 
     # 1. Pulizia e Conversione Tipi
     # Converte le colonne in numerico, forzando errori a NaN
     for col in ['PSxG', 'GA', 'Save%', '90s']:
         # Sostituisci i valori non validi/stringhe con NaN, poi converti in float
-        df_gk[col] = pd.to_numeric(df_gk[col], errors='coerce')
+        df[col] = pd.to_numeric(df[col], errors='coerce')
         
     # Rimuovi eventuali righe con dati mancanti dopo la conversione
-    df_gk = df_gk.dropna(subset=['90s', 'PSxG', 'GA', 'Save%'])
+    df = df.dropna(subset=['90s', 'PSxG', 'GA', 'Save%'])
 
     # 2. Filtro e Calcolo delle Metriche di Base
-    df_gk = df_gk[df_gk['Pos'] == 'GK']
-    df_gk = df_gk[df_gk['90s'] >= min_90s_gk]
+    df = df[df['Pos'] == 'GK']
+    df = df[df['90s'] >= min_90s_gk]
 
     # Calcolo: Prestazione Netta (Gol salvati in più o in meno rispetto all'attesa)
-    df_gk['Net_Save_Value'] = df_gk['PSxG'] - df_gk['GA'] 
+    df['Net_Save_Value'] = df['PSxG'] - df['GA'] 
 
     # 3. Normalizzazione
     # Normalizza Save% (che è in %) per renderla compatibile (da 0-100 a 0-1)
-    df_gk['Save%_Norm'] = df_gk['Save%'] / 100 
+    df['Save%_Norm'] = df['Save%'] / 100 
 
     # 4. Punteggio Finale (Combinazione)
     # Punteggio: Net_Save_Value (il valore più importante) + un bonus dalla Save% normalizzata. 
     # Si moltiplica Save%_Norm per 2 per dare un peso ragionevole al parametro %parate.
-    df_gk['Total_GK_Score'] = df_gk['Net_Save_Value'] + (df_gk['Save%_Norm'] * 2) 
+    df['Total_GK_Score'] = df['Net_Save_Value'] + (df['Save%_Norm'] * 2) 
 
     # Ordina per i migliori
-    migliori_portieri = df_gk.sort_values(by='Total_GK_Score', ascending=False)
+    migliori_portieri = df.sort_values(by='Total_GK_Score', ascending=False)
+    return migliori_portieri
 
-from scraping_fbref_players_gemini import giocatori
-
-print(scoring_gca(giocatori()))
+if __name__ == "__main__":
+    print(scoring_gca(giocatori()))
+    print(scoring_por(portieri()))

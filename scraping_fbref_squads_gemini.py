@@ -2,6 +2,9 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup, Comment
 from io import StringIO
+import cloudscraper
+
+scraper = cloudscraper.create_scraper()
 
 def scrape_fbref_table(url, table_id, header_levels=[0, 1]):
     """
@@ -16,7 +19,7 @@ def scrape_fbref_table(url, table_id, header_levels=[0, 1]):
     
     # 1. Recupero HTML
     try:
-        response = requests.get(url)
+        response = scraper.get(url)
         response.raise_for_status()
     except requests.exceptions.RequestException as e:
         return None, f"Errore di rete durante il recupero di {url}: {e}"

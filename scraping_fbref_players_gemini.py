@@ -2,6 +2,9 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup, Comment
 from io import StringIO
+import cloudscraper
+
+scraper = cloudscraper.create_scraper()
 
 def scrape_fbref_second_level_header(url, table_id):
     """
@@ -15,7 +18,7 @@ def scrape_fbref_second_level_header(url, table_id):
     print(f"Sto recuperando i dati da: {url} e cercando la tabella '{table_id}'...")
     
     try:
-        response = requests.get(url)
+        response = scraper.get(url)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -43,7 +46,15 @@ def scrape_fbref_second_level_header(url, table_id):
         
         # 3. Appiattimento delle Intestazioni (La Soluzione)
         # Prendi l'indice delle colonne e 'sgancia' il primo livello (livello 0)
-        df.columns = df.columns.droplevel(0)
+        new_columns = []
+        for top, bottom in df.columns:
+            if top == "Per 90 Minutes":
+                new_columns.append(f"%{bottom}")
+            elif top == "Penalty Kicks":
+                new_columns.append(f"PK{bottom}")
+            else:
+                new_columns.append(bottom)
+        df.columns = new_columns
         
         # 4. Pulizia Finale del DataFrame
         # Rimuove le righe di intestazione ripetute che si trovano nel corpo della tabella
@@ -77,3 +88,33 @@ def giocatori():
         # Nota: alcune colonne che non avevano un header superiore saranno ancora presenti.
         print(df_giocatori.columns.tolist())
     return df_giocatori
+    
+def portieri():
+    # Dati per la Serie A
+    url_serie_a = 'https://fbref.com/en/comps/11/keepersadv/Serie-A-Stats'
+    id_statistiche_giocatori = 'stats_keeper_adv' 
+
+    # Esegui lo scraping
+    df_giocatori_adv = scrape_fbref_second_level_header(url_serie_a, id_statistiche_giocatori)
+
+    if df_giocatori_adv is not None:
+        print("\n--- ✅ DataFrame Statistiche Giocatori (Testa) con solo la seconda intestazione ---")
+        print(df_giocatori_adv.head())
+        
+        print("\n--- Nomi delle Colonne Semplificati ---")
+        # Nota: alcune colonne che non avevano un header superiore saranno ancora presenti.
+        print(df_giocatori_adv.columns.tolist())
+
+    # Dati per la Serie A
+    url_serie_a = 'https://fbref.com/en/comps/11/keepers/Serie-A-Stats'
+    id_statistiche_giocatori = 'stats_keeper' 
+
+    # Esegui lo scraping
+    df_giocatori = scrape_fbref_second_level_header(url_serie_a, id_statistiche_giocatori)
+    merged = df_giocatori_adv.merge(df_giocatori, left_on='Player', right_on='Player', suffixes=('', '_y'))
+    merged.drop(merged.filter(regex='_y$').columns, axis=1, inplace=True)
+    return merged
+
+if __name__ == '__main__':
+    giocatori()
+    portieri()
