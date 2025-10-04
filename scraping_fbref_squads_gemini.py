@@ -6,7 +6,7 @@ import cloudscraper
 
 scraper = cloudscraper.create_scraper()
 
-def scrape_fbref_table(url, table_id, header_levels=[0, 1]):
+def scrape_fbref_table(url, table_id, header_rename, header_levels=[0, 1]):
     """
     Esegue lo scraping di una tabella FBref specifica, gestendo commenti HTML nascosti 
     e multi-livello di intestazione.
@@ -49,7 +49,13 @@ def scrape_fbref_table(url, table_id, header_levels=[0, 1]):
 
         # 4. Gestione MultiIndex: appiattisce le colonne al livello inferiore (se richiesto)
         if len(header_levels) > 1:
-            df.columns = df.columns.droplevel(0)
+            new_columns = []
+            for top, bottom in df.columns:
+                if top in header_rename:
+                    new_columns.append(f'{header_rename[top]}_{bottom}')
+                else:
+                    new_columns.append(bottom)
+            df.columns = new_columns
             df.columns.name = None # Pulisce il nome dell'indice
         
         # 5. Pulizia (rimuove le righe di intestazione duplicate nel corpo della tabella)
@@ -62,65 +68,69 @@ def scrape_fbref_table(url, table_id, header_levels=[0, 1]):
         return None, f"Tabella con ID '{table_id}' non trovata nell'HTML analizzato."
     except Exception as e:
         return None, f"Errore durante l'analisi della tabella: {e}"
-
+    
 # --- Parametri ---
 url_schedule = 'https://fbref.com/en/comps/11/schedule/Serie-A-Scores-and-Fixtures'
 id_schedule = 'sched_2025-2026_11_1' # ID per il Calendario
 
 url_team_stats = 'https://fbref.com/en/comps/11/Serie-A-Stats'
-id_team_stats = 'stats_squads_standard_for' # ID per le Statistiche di Squadra Standard
+id_team_stats = 'results2025-2026111_home_away' # ID per le Statistiche di Squadra Standard
 
-# --- A. Scarica le Statistiche di Squadra (Doppio Header) ---
-# Usiamo [0, 1] per ottenere l'header a due livelli e droplevel(0) nel codice della funzione
-df_stats, error_stats = scrape_fbref_table(url_team_stats, id_team_stats, header_levels=[0, 1])
+def get_schedule(matchweek):
+    # --- B. Scarica il Calendario (Singolo Header) ---
+    # Usiamo [0] perché il calendario ha un solo livello di intestazione
+    df_schedule, error_schedule = scrape_fbref_table(url_schedule, id_schedule, {}, header_levels=[0])
 
-# --- B. Scarica il Calendario (Singolo Header) ---
-# Usiamo [0] perché il calendario ha un solo livello di intestazione
-df_schedule, error_schedule = scrape_fbref_table(url_schedule, id_schedule, header_levels=[0])
+    # --- Output ---
+    print("="*70)
 
-# --- Output ---
-print("="*70)
+    # Gestione e presentazione del calendario della Sesta Giornata
+    if df_schedule is not None:
+        # 'Wk' (Week) è la colonna della giornata di campionato
+        matchweek_column = 'Wk'
 
-# Gestione e presentazione del calendario della Sesta Giornata
-if df_schedule is not None:
-    # 'Wk' (Week) è la colonna della giornata di campionato
-    matchweek_column = 'Wk'
+        # Filtra la sesta giornata. Usiamo '6' come stringa per robustezza.
+        re = rf'^{matchweek}(\.0)?$'
+        df_matchweek = df_schedule[df_schedule[matchweek_column].astype(str).str.contains(re, na=False)]
+
+        # Pulizia e rinomina colonne per chiarezza
+        df_matchweek = df_matchweek.rename(columns={'Wk': 'Giornata', 'Day': 'Giorno', 'Home': 'Casa', 'Away': 'Ospite', 'Match Report': 'Dettagli', 'Score': 'Gol'})
+
+        cols_to_keep = ['Giornata', 'Date', 'Time', 'Casa', 'Gol', 'Ospite', 'Dettagli', 'Attendance', 'Referee']
+        final_cols_schedule = [col for col in cols_to_keep if col in df_matchweek.columns]
+
+        df_matchweek = df_matchweek[final_cols_schedule]
+
+        print("## 🗓️ Calendario: Sesta Giornata\n")
+        print("La tabella seguente mostra tutte le partite relative alla sesta giornata di campionato:")
+        print(df_matchweek.to_markdown(index=False)) # Visualizza il DataFrame del calendario
+
+    else:
+        print(f"## ❌ Errore nel recupero del Calendario\n{error_schedule}")
+
+    return df_matchweek
     
-    # Filtra la sesta giornata. Usiamo '6' come stringa per robustezza.
-    df_matchweek_6 = df_schedule[df_schedule[matchweek_column].astype(str).str.contains(r'^6(\.0)?$', na=False)]
-    
-    # Pulizia e rinomina colonne per chiarezza
-    df_matchweek_6 = df_matchweek_6.rename(columns={'Wk': 'Giornata', 'Day': 'Giorno', 'Home': 'Casa', 'Away': 'Ospite', 'Match Report': 'Dettagli', 'Score': 'Gol'})
-    
-    cols_to_keep = ['Giornata', 'Date', 'Time', 'Casa', 'Gol', 'Ospite', 'Dettagli', 'Attendance', 'Referee']
-    final_cols_schedule = [col for col in cols_to_keep if col in df_matchweek_6.columns]
-    
-    df_matchweek_6 = df_matchweek_6[final_cols_schedule]
-    
-    print("## 🗓️ Calendario: Sesta Giornata\n")
-    print("La tabella seguente mostra tutte le partite relative alla sesta giornata di campionato:")
-    print(df_matchweek_6.to_markdown(index=False)) # Visualizza il DataFrame del calendario
-
-else:
-    print(f"## ❌ Errore nel recupero del Calendario\n{error_schedule}")
+def get_squads():
 
 
-print("\n" + "="*70 + "\n")
+    # --- A. Scarica le Statistiche di Squadra (Doppio Header) ---
+    # Usiamo [0, 1] per ottenere l'header a due livelli e droplevel(0) nel codice della funzione
+    df_stats, error_stats = scrape_fbref_table(url_team_stats, id_team_stats, {"Home": "H", "Away": "A"}, header_levels=[0, 1])
 
+    # Gestione e presentazione delle statistiche di squadra
+    if df_stats is not None:
+        # Rinomina e seleziona le colonne principali per la visualizzazione
+        df_stats = df_stats.rename(columns={'Squad': 'Squadra'})
+        df_stats_clean = df_stats.set_index('Squadra')
 
-# Gestione e presentazione delle statistiche di squadra
-if df_stats is not None:
-    # Rinomina e seleziona le colonne principali per la visualizzazione
-    df_stats = df_stats.rename(columns={'Squad': 'Squadra'})
-    
-    stats_cols_to_keep = ['Squadra', 'MP', 'W', 'D', 'L', 'GF', 'GA', 'GD', 'Pts', 'xG', 'xGA']
-    final_cols_stats = [col for col in stats_cols_to_keep if col in df_stats.columns]
+        print("## 📊 Statistiche Standard di Squadra (Intestazione Semplificata)\n")
+        print("Questa tabella contiene le statistiche generali per ogni squadra, utilizzando solo il secondo livello dell'intestazione.")
+        print(df_stats_clean.to_markdown()) # Visualizza il DataFrame delle statistiche
+    else:                                   
+        print(f"## ❌ Errore nel recupero delle Statistiche di Squadra\n{error_stats}")
 
-    df_stats_clean = df_stats[final_cols_stats].set_index('Squadra')
-    
-    print("## 📊 Statistiche Standard di Squadra (Intestazione Semplificata)\n")
-    print("Questa tabella contiene le statistiche generali per ogni squadra, utilizzando solo il secondo livello dell'intestazione.")
-    print(df_stats_clean.to_markdown()) # Visualizza il DataFrame delle statistiche
+    return df_stats
 
-else:
-    print(f"## ❌ Errore nel recupero delle Statistiche di Squadra\n{error_stats}")
+if __name__ == '__main__':
+    get_schedule()
+    get_squads()

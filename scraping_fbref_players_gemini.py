@@ -87,6 +87,9 @@ def giocatori():
         print("\n--- Nomi delle Colonne Semplificati ---")
         # Nota: alcune colonne che non avevano un header superiore saranno ancora presenti.
         print(df_giocatori.columns.tolist())
+    df_giocatori.Gls = pd.to_numeric(df_giocatori.Gls, errors='coerce')
+    df_giocatori.Ast = pd.to_numeric(df_giocatori.Ast, errors='coerce')
+    df_giocatori.Min = pd.to_numeric(df_giocatori.Min, errors='coerce')
     return df_giocatori
     
 def portieri():

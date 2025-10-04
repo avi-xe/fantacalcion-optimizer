@@ -1,32 +1,32 @@
 from scraping_fbref_players_gemini import giocatori, portieri
-from scraping_fbref_squads_gemini import 
-from scraping_fantacalcio import get_probabili_formazioni
+from scraping_fbref_squads_gemini import get_squads, get_schedule
+from scraping_sosfanta import get_probabili
 from calendario import get_next_matches
 from scoring import compute_scores
-from optimizer import best_eleven
+from optimizer import best_eleven, best_eleven_343
+import pandas as pd
 
-def main():
+def main(matchweek):
     print("🔄 Recupero dati da FBref...")
     df_players = giocatori()
     df_keepers = portieri()
-    compute_scores(df_players, df_keepers, None, None)
-    # df_players = get_player_stats_from_page()
-    # df_teams = get_team_stats_from_page()
+    df_teams = get_squads()
 
-    # print("🔄 Recupero probabili formazioni da Fantacalcio.it...")
-    # prob_set = get_probabili_formazioni()
+    print("🔄 Recupero probabili formazioni da SosFanta...")
+    prob_set = get_probabili()
 
-    # print("🔄 Recupero calendario prossima giornata...")
-    # calendario = get_next_matches()
+    print("🔄 Recupero calendario prossima giornata...")
+    calendario = get_schedule(matchweek)
 
-    # print("⚙️ Calcolo punteggi...")
-    # df_scored = compute_scores(df_players, df_teams, prob_set, calendario)
+    print("⚙️ Calcolo punteggi...")
+    df_scored = compute_scores(df_players, df_teams, prob_set, calendario)
 
-    # print("✅ Ottimizzazione formazione (11 squadre diverse)...")
-    # formazione = best_eleven(df_scored)
+    print("✅ Ottimizzazione formazione (11 squadre diverse)...")
+    formazione = best_eleven_343(df_scored)
 
-    # print("\nFormazione ottimizzata:")
-    # print(formazione[["Nome", "Squadra", "Punteggio"]])
+    print("\nFormazione ottimizzata:")
+    formazione["Pos"] = pd.Categorical(formazione["Pos"], ["GK", "DF", "MF", "FW"])
+    print(formazione[["Player", "Squad", "Punteggio", "Pos"]].sort_values("Pos"))
 
 if __name__ == "__main__":
-    main()
+    main(6)
