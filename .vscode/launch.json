@@ -6,10 +6,16 @@
     "configurations": [
         
         {
-            "name": "Python Debugger: Module",
+            "name": "Python Debugger: optimize",
             "type": "debugpy",
             "request": "launch",
             "module": "main_gemini"
+        },
+        {
+            "name": "Python Debugger: train",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main_train"
         }
     ]
 }

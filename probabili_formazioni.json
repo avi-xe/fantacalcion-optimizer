@@ -293,7 +293,7 @@
     "squadra_casa": "INTER",
     "squadra_ospite": "CREMONESE",
     "modulo_casa": "3-5-2",
-    "modulo_ospite": "3-5-2",
+    "modulo_ospite": "3-4-2-1",
     "allenatore_casa": "Davide Nicola",
     "allenatore_ospite": null,
     "in_campo_casa": [
@@ -314,18 +314,18 @@
       "Ceccherini",
       "Baschirotto",
       "Bianchetti",
-      "Zerbin",
+      "Floriani M.",
       "Grassi",
       "Bondo",
-      "Payero",
       "Pezzella",
-      "Sanabria",
-      "Vazquez"
+      "Vazquez",
+      "Johnsen",
+      "Sanabria"
     ],
     "ballottaggi": [
       {
         "side": "",
-        "player": "Sommer-Martinez Jo. 55-45% De Vrij-Acerbi 55-45% Frattesi-Sucic 55-45% Dimarco-Carlos Augusto 55-45% Bonny-Pio-Esposito 55-45% Zerbin-Floriani Mussolini 51-49% Payero-Vandeputte 51-49% Sanabria-Bonazzoli 51-49% Vazquez-Vardy 60-40%"
+        "player": "UFFICIALE UFFICIALE"
       }
     ],
     "squalificati": [],
@@ -347,7 +347,7 @@
       "CREMONESE",
       "3-5-2",
       "Modulo",
-      "3-5-2",
+      "3-4-2-1",
       "Cristian Chivu",
       "Allenatore",
       "Davide Nicola",
@@ -367,17 +367,17 @@
       "Ceccherini",
       "Baschirotto",
       "Bianchetti",
-      "Zerbin",
+      "Floriani M.",
       "Grassi",
       "Bondo",
-      "Payero",
       "Pezzella",
-      "Sanabria",
       "Vazquez",
+      "Johnsen",
+      "Sanabria",
       "Ballottaggi",
-      "Sommer-Martinez Jo. 55-45%",
-      "De Vrij-Acerbi 55-45%",
-      "Frattesi-Sucic 55-45%"
+      "UFFICIALE",
+      "UFFICIALE",
+      "Squalificati"
     ]
   },
   {
@@ -392,34 +392,34 @@
     "allenatore_ospite": null,
     "in_campo_casa": [
       "Carnesecchi",
-      "Zappacosta",
       "Djimsiti",
+      "Hien",
       "Ahanor",
-      "Musah",
+      "Zappacosta",
       "Ederson",
       "Pasalic",
       "Bernasconi",
       "Samardzic",
       "Sulemana",
-      "Krstovic"
+      "Lookman"
     ],
     "in_campo_ospite": [
       "Butez",
       "Smolcic",
       "Carlos",
       "Ramon",
-      "Valle",
+      "Vojvoda",
       "Perrone",
       "Da Cunha",
-      "Vojvoda",
-      "Paz",
       "Addai",
+      "Paz",
+      "Baturina",
       "Douvikas"
     ],
     "ballottaggi": [
       {
         "side": "",
-        "player": "Musah-Hien 51-49% Samardzic-Maldini 51-49% Sulemana-Lookman 51-49% Smolcic-Posch 51-49% Da Cunha-Caqueret 55-45% Vojvoda-Baturina 55-45% Douvikas-Morata 60-40%"
+        "player": "UFFICIALE UFFICIALE"
       }
     ],
     "squalificati": [
@@ -431,7 +431,7 @@
     "indisponibili": [
       {
         "side": "",
-        "player": "Kolasinac, Scamacca, Bakker, Scalvini, Zalewski, Bellanova, Kossounou Diao, Dossena, Van der Brempt, Sergi Roberto,"
+        "player": "Kolasinac, Scamacca, Bakker, Scalvini, Zalewski, Bellanova, Kossounou Diao, Dossena, Van der Brempt, Sergi Roberto, Kuhn"
       }
     ],
     "diffidati": [],
@@ -452,31 +452,31 @@
       "Cesc Fabregas",
       "In campo",
       "Carnesecchi",
-      "Zappacosta",
       "Djimsiti",
+      "Hien",
       "Ahanor",
-      "Musah",
+      "Zappacosta",
       "Ederson",
       "Pasalic",
       "Bernasconi",
       "Samardzic",
       "Sulemana",
-      "Krstovic",
+      "Lookman",
       "Butez",
       "Smolcic",
       "Carlos",
       "Ramon",
-      "Valle",
+      "Vojvoda",
       "Perrone",
       "Da Cunha",
-      "Vojvoda",
-      "Paz",
       "Addai",
+      "Paz",
+      "Baturina",
       "Douvikas",
       "Ballottaggi",
-      "Musah-Hien 51-49%",
-      "Samardzic-Maldini 51-49%",
-      "Sulemana-Lookman 51-49%"
+      "UFFICIALE",
+      "UFFICIALE",
+      "Squalificati"
     ]
   },
   {
@@ -584,7 +584,7 @@
     "allenatore_casa": "Alberto Gilardino",
     "allenatore_ospite": null,
     "in_campo_casa": [
-      "Skorupski",
+      "Ravaglia",
       "Zortea",
       "Heggem",
       "Lucumì",
@@ -594,7 +594,7 @@
       "Orsolini",
       "Odgaard",
       "Rowe",
-      "Castro"
+      "Dallinga"
     ],
     "in_campo_ospite": [
       "Semper",
@@ -605,14 +605,14 @@
       "Akinsanmiro",
       "Marin",
       "Leris",
-      "Cuadrado",
-      "Tramoni",
+      "Hojholt",
+      "Moreo",
       "Nzola"
     ],
     "ballottaggi": [
       {
         "side": "",
-        "player": "Skorupski-Ravaglia 51-49% Zortea-De Silvestri 51-49% Orsolini-Bernardeschi 55-45% Odgaard-Fabbian 51-49% Rowe-Cambiaghi 51-49% Castro-Dallinga 55-45% Cuadrado-Hojholt 51-49% Leris-Angori 51-49%"
+        "player": "Ravaglia-Skorupski 51-49% Zortea-De Silvestri 51-49% Orsolini-Bernardeschi 55-45% Odgaard-Fabbian 51-49% Rowe-Cambiaghi 51-49% Dallinga-Castro 51-49% Hojholt-Vural 51-49% Leris-Angori 51-49% Moreo-Tramoni 51-49%"
       }
     ],
     "squalificati": [],
@@ -639,7 +639,7 @@
       "Allenatore",
       "Alberto Gilardino",
       "In campo",
-      "Skorupski",
+      "Ravaglia",
       "Zortea",
       "Heggem",
       "Lucumì",
@@ -649,7 +649,7 @@
       "Orsolini",
       "Odgaard",
       "Rowe",
-      "Castro",
+      "Dallinga",
       "Semper",
       "Canestrelli",
       "Caracciolo",
@@ -658,11 +658,11 @@
       "Akinsanmiro",
       "Marin",
       "Leris",
-      "Cuadrado",
-      "Tramoni",
+      "Hojholt",
+      "Moreo",
       "Nzola",
       "Ballottaggi",
-      "Skorupski-Ravaglia 51-49%",
+      "Ravaglia-Skorupski 51-49%",
       "Zortea-De Silvestri 51-49%",
       "Orsolini-Bernardeschi 55-45%"
     ]
@@ -688,7 +688,7 @@
       "Fazzini",
       "Gosens",
       "Kean",
-      "Piccoli"
+      "Gudmundsson"
     ],
     "in_campo_ospite": [
       "Svilar",
@@ -698,7 +698,7 @@
       "Wesley",
       "Koné",
       "Cristante",
-      "Tsimikaa",
+      "Rensch",
       "Soulé",
       "Pellegrini",
       "Dovbyk"
@@ -706,7 +706,7 @@
     "ballottaggi": [
       {
         "side": "",
-        "player": "Marì-Comuzzo 51-49% Nicolussi Caviglia-Fagioli 55-45% Fazzini-Ndour 55-45% Piccoli-Gudmundsson 51-49% Celik-Hermoso 55-45% Wesley-Rensch 51-49% Pellegrini-El Shaarawy 55-45% Dovbyk-Ferguson 55-45%"
+        "player": "Marì-Comuzzo 51-49% Nicolussi Caviglia-Fagioli 55-45% Fazzini-Ndour 55-45% Gudmundsson-Piccoli 51-49% Celik-Hermoso 55-45% Rensch-Tsimikas 51-49% Pellegrini-El Shaarawy 55-45% Dovbyk-Ferguson 55-45%"
       }
     ],
     "squalificati": [],
@@ -743,7 +743,7 @@
       "Fazzini",
       "Gosens",
       "Kean",
-      "Piccoli",
+      "Gudmundsson",
       "Svilar",
       "Celik",
       "Mancini",
@@ -751,7 +751,7 @@
       "Wesley",
       "Koné",
       "Cristante",
-      "Tsimikaa",
+      "Rensch",
       "Soulé",
       "Pellegrini",
       "Dovbyk",
@@ -767,40 +767,40 @@
     "orario": null,
     "squadra_casa": "NAPOLI",
     "squadra_ospite": "GENOA",
-    "modulo_casa": "4-2-3-1",
+    "modulo_casa": "4-3-3",
     "modulo_ospite": "4-2-3-1",
     "allenatore_casa": "Patrick Vieira",
     "allenatore_ospite": null,
     "in_campo_casa": [
-      "Meret",
+      "Milinkovic",
       "Di Lorenzo",
       "Beukema",
       "Juan Jesus",
       "Olivera",
       "Anguissa",
       "Lobotka",
-      "Politano",
-      "De Bruyne",
       "McTominay",
-      "Hojlund"
+      "Politano",
+      "Hojlund",
+      "Neres"
     ],
     "in_campo_ospite": [
       "Leali",
-      "Norton-Cuffy",
+      "Sabelli",
       "Ostigard",
       "Vasquez",
       "Martin",
       "Frendrup",
       "Masini",
-      "Ellertsson",
+      "Vitinha",
       "Malinovskyi",
-      "Venturino",
-      "Ekuban"
+      "Norton Cuffy",
+      "Ekhator"
     ],
     "ballottaggi": [
       {
         "side": "",
-        "player": "Meret-Milinkovic 51-49% Olivera-Spinazzola 51-49% Lobotka-Gilmour 55-45% De Bruyne-Elmas 55-45% McTominay-Neres 55-45% Hojlund-Lucca 51-49% Ellertsson-Carboni 51-49% Venturino-Vitinha 51-49% Malinovskyi-Thorsby 55-45% Ekuban-Colombo 51-49%"
+        "player": "Milinkovic-Meret 51-49% Olivera-Spinazzola 51-49% Neres-De Bruyne 51-49% Sabelli-Ellertsson 51-49% Vitinha-Carboni 51-49% Malinovskyi-Thorsby 51-49% Ekhator-Colombo 51-49%"
       }
     ],
     "squalificati": [],
@@ -820,39 +820,39 @@
       "18:00",
       "NAPOLI",
       "GENOA",
-      "4-2-3-1",
+      "4-3-3",
       "Modulo",
       "4-2-3-1",
       "Antonio Conte",
       "Allenatore",
       "Patrick Vieira",
       "In campo",
-      "Meret",
+      "Milinkovic",
       "Di Lorenzo",
       "Beukema",
       "Juan Jesus",
       "Olivera",
       "Anguissa",
       "Lobotka",
-      "Politano",
-      "De Bruyne",
       "McTominay",
+      "Politano",
       "Hojlund",
+      "Neres",
       "Leali",
-      "Norton-Cuffy",
+      "Sabelli",
       "Ostigard",
       "Vasquez",
       "Martin",
       "Frendrup",
       "Masini",
-      "Ellertsson",
+      "Vitinha",
       "Malinovskyi",
-      "Venturino",
-      "Ekuban",
+      "Norton Cuffy",
+      "Ekhator",
       "Ballottaggi",
-      "Meret-Milinkovic 51-49%",
+      "Milinkovic-Meret 51-49%",
       "Olivera-Spinazzola 51-49%",
-      "Lobotka-Gilmour 55-45%"
+      "Neres-De Bruyne 51-49%"
     ]
   },
   {
