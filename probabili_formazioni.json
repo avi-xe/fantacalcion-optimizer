@@ -486,16 +486,16 @@
     "squadra_casa": "UDINESE",
     "squadra_ospite": "CAGLIARI",
     "modulo_casa": "3-5-2",
-    "modulo_ospite": "4-3-1-2",
+    "modulo_ospite": "4-3-2-1",
     "allenatore_casa": "Fabio Pisacane",
     "allenatore_ospite": null,
     "in_campo_casa": [
       "Sava",
-      "Bertola",
-      "Kristensen",
+      "Goglichidze",
+      "Kabasele",
       "Solet",
       "Zanoli",
-      "Lovric",
+      "Piotrowski",
       "Karlstrom",
       "Atta",
       "Kamara",
@@ -506,26 +506,26 @@
       "Caprile",
       "Palestra",
       "Mina",
-      "Luperto",
+      "Ze Pedro",
       "Obert",
-      "Adopo",
+      "Folorunsho",
       "Prati",
       "Deiola",
-      "Folorunsho",
+      "Felici",
       "Esposito Se.",
       "Borrelli"
     ],
     "ballottaggi": [
       {
         "side": "",
-        "player": "Bertola-Goglichidze 51-49% Zanoli-Ehizibue 51-49% Lovric-Piotrowski 51-49% Kamara-Zemura 51-49% Zaniolo-Bayo 60-40% Mina-Zé Pedro 51-49% Borrelli-Luvumbo 51-49%"
+        "player": "UFFICIALE UFFICIALE"
       }
     ],
     "squalificati": [],
     "indisponibili": [
       {
         "side": "",
-        "player": "Bravo, Radunovic, Zappa, Belotti, Gaetano, Pintus, Rodriguez"
+        "player": "Bravo, Kristensen Radunovic, Zappa, Belotti, Gaetano, Pintus, Rodriguez"
       }
     ],
     "diffidati": [],
@@ -540,17 +540,17 @@
       "CAGLIARI",
       "3-5-2",
       "Modulo",
-      "4-3-1-2",
+      "4-3-2-1",
       "Kosta Runjaic",
       "Allenatore",
       "Fabio Pisacane",
       "In campo",
       "Sava",
-      "Bertola",
-      "Kristensen",
+      "Goglichidze",
+      "Kabasele",
       "Solet",
       "Zanoli",
-      "Lovric",
+      "Piotrowski",
       "Karlstrom",
       "Atta",
       "Kamara",
@@ -559,18 +559,18 @@
       "Caprile",
       "Palestra",
       "Mina",
-      "Luperto",
+      "Ze Pedro",
       "Obert",
-      "Adopo",
+      "Folorunsho",
       "Prati",
       "Deiola",
-      "Folorunsho",
+      "Felici",
       "Esposito Se.",
       "Borrelli",
       "Ballottaggi",
-      "Bertola-Goglichidze 51-49%",
-      "Zanoli-Ehizibue 51-49%",
-      "Lovric-Piotrowski 51-49%"
+      "UFFICIALE",
+      "UFFICIALE",
+      "Squalificati"
     ]
   },
   {
@@ -584,7 +584,7 @@
     "allenatore_casa": "Alberto Gilardino",
     "allenatore_ospite": null,
     "in_campo_casa": [
-      "Ravaglia",
+      "Skorupski",
       "Zortea",
       "Heggem",
       "Lucumì",
@@ -593,8 +593,8 @@
       "Moro",
       "Orsolini",
       "Odgaard",
-      "Rowe",
-      "Dallinga"
+      "Cambiaghi",
+      "Castro"
     ],
     "in_campo_ospite": [
       "Semper",
@@ -604,15 +604,15 @@
       "Touré",
       "Akinsanmiro",
       "Marin",
+      "Vural",
       "Leris",
-      "Hojholt",
-      "Moreo",
+      "Tramoni",
       "Nzola"
     ],
     "ballottaggi": [
       {
         "side": "",
-        "player": "Ravaglia-Skorupski 51-49% Zortea-De Silvestri 51-49% Orsolini-Bernardeschi 55-45% Odgaard-Fabbian 51-49% Rowe-Cambiaghi 51-49% Dallinga-Castro 51-49% Hojholt-Vural 51-49% Leris-Angori 51-49% Moreo-Tramoni 51-49%"
+        "player": "UFFICIALE UFFICIALE"
       }
     ],
     "squalificati": [],
@@ -639,7 +639,7 @@
       "Allenatore",
       "Alberto Gilardino",
       "In campo",
-      "Ravaglia",
+      "Skorupski",
       "Zortea",
       "Heggem",
       "Lucumì",
@@ -648,8 +648,8 @@
       "Moro",
       "Orsolini",
       "Odgaard",
-      "Rowe",
-      "Dallinga",
+      "Cambiaghi",
+      "Castro",
       "Semper",
       "Canestrelli",
       "Caracciolo",
@@ -657,14 +657,14 @@
       "Touré",
       "Akinsanmiro",
       "Marin",
+      "Vural",
       "Leris",
-      "Hojholt",
-      "Moreo",
+      "Tramoni",
       "Nzola",
       "Ballottaggi",
-      "Ravaglia-Skorupski 51-49%",
-      "Zortea-De Silvestri 51-49%",
-      "Orsolini-Bernardeschi 55-45%"
+      "UFFICIALE",
+      "UFFICIALE",
+      "Squalificati"
     ]
   },
   {
@@ -698,15 +698,15 @@
       "Wesley",
       "Koné",
       "Cristante",
-      "Rensch",
+      "Tsimikas",
       "Soulé",
-      "Pellegrini",
+      "Baldanzi",
       "Dovbyk"
     ],
     "ballottaggi": [
       {
         "side": "",
-        "player": "Marì-Comuzzo 51-49% Nicolussi Caviglia-Fagioli 55-45% Fazzini-Ndour 55-45% Gudmundsson-Piccoli 51-49% Celik-Hermoso 55-45% Rensch-Tsimikas 51-49% Pellegrini-El Shaarawy 55-45% Dovbyk-Ferguson 55-45%"
+        "player": "UFFICIALE UFFICIALE"
       }
     ],
     "squalificati": [],
@@ -751,14 +751,14 @@
       "Wesley",
       "Koné",
       "Cristante",
-      "Rensch",
+      "Tsimikas",
       "Soulé",
-      "Pellegrini",
+      "Baldanzi",
       "Dovbyk",
       "Ballottaggi",
-      "Marì-Comuzzo 51-49%",
-      "Nicolussi Caviglia-Fagioli 55-45%",
-      "Fazzini-Ndour 55-45%"
+      "UFFICIALE",
+      "UFFICIALE",
+      "Squalificati"
     ]
   },
   {
@@ -867,20 +867,20 @@
     "allenatore_ospite": null,
     "in_campo_casa": [
       "Di Gregorio",
-      "Kalulu",
       "Gatti",
+      "Rugani",
       "Kelly",
-      "Joao Mario",
-      "Thuram",
+      "Kalulu",
+      "Mckennie",
       "Locatelli",
       "Cambiaso",
       "Conceicao",
       "Yildiz",
-      "Vlahovic"
+      "David"
     ],
     "in_campo_ospite": [
       "Maignan",
-      "Tomori",
+      "De Winter",
       "Gabbia",
       "Pavlovic",
       "Saelemaekers",
@@ -894,7 +894,7 @@
     "ballottaggi": [
       {
         "side": "",
-        "player": "Joao Mario-Bremer 51-49% Thuram-McKennie 51-49% Vlahovic-Openda 51-49% Tomori-De Winter 51-49% Bartesaghi-Athekame 55-45% Gimenez-Leao 60-40%"
+        "player": "Rugani-Thuram 51-49% McKennie-Koopmeiners 55-45% David-Vlahovic 51-49% De Winter-Tomori 51-49% Gimenez-Leao 60-40%"
       }
     ],
     "squalificati": [
@@ -906,7 +906,7 @@
     "indisponibili": [
       {
         "side": "",
-        "player": "Milik, Miretti, Cabal Jashari,"
+        "player": "Milik, Miretti, Cabal, Bremer Jashari,"
       }
     ],
     "diffidati": [],
@@ -927,18 +927,18 @@
       "Massimiliano Allegri",
       "In campo",
       "Di Gregorio",
-      "Kalulu",
       "Gatti",
+      "Rugani",
       "Kelly",
-      "Joao Mario",
-      "Thuram",
+      "Kalulu",
+      "Mckennie",
       "Locatelli",
       "Cambiaso",
       "Conceicao",
       "Yildiz",
-      "Vlahovic",
+      "David",
       "Maignan",
-      "Tomori",
+      "De Winter",
       "Gabbia",
       "Pavlovic",
       "Saelemaekers",
@@ -949,9 +949,9 @@
       "Gimenez",
       "Pulisic",
       "Ballottaggi",
-      "Joao Mario-Bremer 51-49%",
-      "Thuram-McKennie 51-49%",
-      "Vlahovic-Openda 51-49%"
+      "Rugani-Thuram 51-49%",
+      "McKennie-Koopmeiners 55-45%",
+      "David-Vlahovic 51-49%"
     ]
   }
 ]
