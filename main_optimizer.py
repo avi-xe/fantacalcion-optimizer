@@ -1,39 +1,11 @@
 from deap import base, creator, tools, algorithms
 import numpy as np
 import random
-from datetime import datetime
-from functools import partial
-import os
 import pandas as pd
 import logging
 from optimizer.best_eleven import best_eleven
-from scipy.optimize import differential_evolution
-import matplotlib.pyplot as plt
-
-from optimizer.objective import objective
 from scoring.scoring import compute_scores
 from scraping.scraping_fantacalcio import crea_chiave_giocatore, load_fantacalcio_votes
-
-# ===============================================================
-# =============== SETUP & LOGGING ===============================
-# ===============================================================
-
-LOG_DIR = "optimization_logs"
-os.makedirs(LOG_DIR, exist_ok=True)
-
-timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-LOG_FILE = os.path.join(LOG_DIR, f"opt_log_{timestamp}.csv")
-
-# Configure human-readable logs
-logging.basicConfig(
-    level=logging.INFO,
-    format="[%(asctime)s] %(message)s",
-    datefmt="%H:%M:%S"
-)
-
-# ===============================================================
-# =============== RUN OPTIMIZATION ===============================
-# ===============================================================
 
 matchweek = 1
 df_keepers = pd.read_parquet("./static/fbref/portieri.parquet")
@@ -198,80 +170,3 @@ for gen in range(NGEN):
 best_ind = tools.selBest(population, k=1)[0]
 print("Best weights:", best_ind)
 print("Best score:", best_ind.fitness.values[0])
-
-
-# objective_with_data = partial(
-#     objective,
-#     dataset=[df_players,
-#              df_keepers,
-#              df_teams,
-#              prob_set,
-#              calendario, df_votes],
-#     history=history
-# )
-
-
-# result = differential_evolution(
-#     objective_with_data,
-#     bounds=bounds,
-#     popsize=15,
-#     maxiter=100,
-#     mutation=(0.3, 0.7),
-#     recombination=0.5,
-#     workers=1,  # single-threaded
-#     polish=True
-# )
-
-# logging.info("Optimization complete!")
-
-# # ===============================================================
-# # =============== SAVE RESULTS ===================================
-# # ===============================================================
-
-# # Convert history to DataFrame
-# df_history = pd.DataFrame(history)
-# df_history.to_csv(LOG_FILE, index=False)
-# logging.info(f"Full history saved to {LOG_FILE}")
-
-# # Extract final results
-# best_weights = result.x
-# best_score = -result.fun
-
-# logging.info(f"✅ Optimal weights: {best_weights}")
-# logging.info(f"✅ Best team score: {best_score:.4f}")
-
-# # ===============================================================
-# # =============== FINAL TEAM & REPORT ============================
-# # ===============================================================
-
-# df_final = compute_scores(df_players, df_keepers,
-#                           df_teams, prob_set, calendario)
-# df_final["Punteggio"] = (
-#     df_final["Titolarità"] * best_weights[0] +
-#     df_final["Forma"] * best_weights[1] +
-#     df_final["BonusPot"] * best_weights[2] +
-#     df_final["Affidabilità"] * best_weights[3] +
-#     df_final["Calendario"] * best_weights[4] +
-#     df_final["Penalità"] * best_weights[5]
-# )
-
-# best11 = best_eleven(df_final)
-# logging.info("\n=== BEST 11 PLAYERS ===")
-# logging.info(best11[["Player", "Squad", "Pos", "Punteggio"]
-#                     ].to_string(index=False))
-
-# # ===============================================================
-# # =============== VISUALIZATION ==================================
-# # ===============================================================
-
-# plt.figure(figsize=(8, 4))
-# plt.plot(df_history["team_score"], label="Team score (raw)")
-# plt.plot(df_history["team_score"].cummax(),
-#          label="Best so far", linestyle="--")
-# plt.xlabel("Iteration")
-# plt.ylabel("Team score")
-# plt.title("Optimization Convergence")
-# plt.legend()
-# plt.grid(True)
-# plt.tight_layout()
-# plt.show()
