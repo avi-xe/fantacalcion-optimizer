@@ -7,7 +7,7 @@ from optimizer.best_eleven import best_eleven
 from scraping.scraping_fantacalcio import crea_chiave_giocatore, load_fantacalcio_votes
 
 # ---------------- Parameters ----------------
-matchweek = 1
+matchweek = 15
 n_outfield = 6
 n_gk = 6
 population_size = 50
@@ -85,6 +85,18 @@ def compute_scores_numba(features, weights):
             out[i,j] = s
     return out
 
+@njit(fastmath=True, parallel=True)
+def normalize_rows(A):
+    """
+    Normalize each row of A so it sums to 1.
+    Rows that sum to 0 remain all zeros.
+    """
+    A = np.asarray(A, dtype=float)  # ensure float type for division
+    row_sums = A.sum(axis=1, keepdims=True)
+    
+    # Safe elementwise division — avoids NaNs for zero rows
+    return np.divide(A, row_sums, out=np.zeros_like(A), where=row_sums != 0)
+
 # ---------------- Preprocessing ----------------
 def preprocess_features(df_players, df_keepers, df_teams, prob_set, calendario):
     # Convert numeric
@@ -95,8 +107,10 @@ def preprocess_features(df_players, df_keepers, df_teams, prob_set, calendario):
 
     # Titolarità
     titolari = set(prob_set["in_campo_casa"].explode()).union(set(prob_set["in_campo_ospite"].explode()))
-    df_players["Titolarità"] = np.where(df_players["Player"].isin(titolari),1.0,0.3).astype(np.float32)
-    df_keepers["Titolarità"] = np.where(df_keepers["Player"].isin(titolari),1.0,0.3).astype(np.float32)
+    df_players = crea_chiave_giocatore(df_players)
+    df_keepers = crea_chiave_giocatore(df_keepers)
+    df_players["Titolarità"] = np.where(df_players["chiave"].isin(titolari),1,0).astype(np.float32)
+    df_keepers["Titolarità"] = np.where(df_keepers["chiave"].isin(titolari),1,0).astype(np.float32)
 
     # Forma
     df_players["Forma"] = normalize_array((df_players["%xG"].values + df_players["%xAG"].values).astype(np.float32))
