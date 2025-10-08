@@ -1,3 +1,4 @@
+from optimizer.process import preprocess_features
 from scraping.scraping_fbref_players_gemini import fetch_giocatori, fetch_portieri, fetch_portieri_adv, giocatori, portieri
 from scraping.scraping_fbref_squads_gemini import fetch_schedule, fetch_squads, get_squads, get_schedule
 from scraping.scraping_sosfanta import get_probabili
@@ -19,22 +20,26 @@ def main(matchweek):
     print("🔄 Recupero calendario prossima giornata...")
     calendario = get_schedule(fetch_schedule(), matchweek)
 
+    player_features, keeper_features, df_players, df_keepers = preprocess_features(
+        df_players, df_keepers, df_teams, prob_set, calendario
+    )
+
     print("⚙️ Calcolo punteggi...")
     df_scored = compute_scores(df_players=df_players, df_keepers=df_keepers,
                                df_teams=df_teams, prob_set=prob_set, calendario=calendario, pesi_out={
-                                   "Titolarità": 0.54,
-                                   "Forma": 0.0,
-                                   "BonusPot": 0.25,
-                                   "Affidabilità": 0.03,
-                                   "Calendario": 0.19,
-                                   "Penalità": -0.0
+                                   "Titolarità": 0.31620378594663645,
+                                   "Forma": 0.1626964611167859,
+                                   "BonusPot": 0.22236579591698838,
+                                   "Affidabilità": 0.15090719644608894,
+                                   "Calendario": 0.18711833068575737,
+                                   "Penalità": -0.1814287238692056
                                }, pesi_gk={
-                                   "Titolarità": 0.,
-                                   "Forma": 0.07,
-                                   "BonusPot": 0.63,
-                                   "Affidabilità": 0.,
-                                   "Calendario": 0.,
-                                   "Penalità": 0.30})
+                                   "Titolarità": 0.2761626120799262,
+                                   "Forma": 0.19624293636386764,
+                                   "BonusPot": 0.1341506987523961,
+                                   "Affidabilità": 0.153719807701092,
+                                   "Calendario": 0.1863849637481972,
+                                   "Penalità": -0.3447980306933768})
 
     print("✅ Ottimizzazione formazione (11 squadre diverse)...")
     formazione = best_eleven(df_scored)

@@ -9,6 +9,12 @@
             "type": "debugpy",
             "request": "launch",
             "module": "main_optimizer"
-        }
+        },
+        {
+            "name": "Prediction",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main"
+        },
     ]
 }

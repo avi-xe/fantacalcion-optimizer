@@ -79,8 +79,8 @@ def compute_scores(df_players, df_keepers, df_teams, prob_set, calendario,
     if prob_set is not None:
         titolari = set(prob_set["in_campo_casa"].explode().dropna().astype(str)) | \
                    set(prob_set["in_campo_ospite"].explode().dropna().astype(str))
-        df_p["Titolarità"] = np.where(df_p["Player"].astype(str).isin(titolari), 1.0, 0.3)
-        df_k["Titolarità"] = np.where(df_k["Player"].astype(str).isin(titolari), 1.0, 0.3)
+        df_p["Titolarità"] = np.where(df_p["Player"].astype(str).isin(titolari), 1.0, -1)
+        df_k["Titolarità"] = np.where(df_k["Player"].astype(str).isin(titolari), 1.0, -1)
     else:
         df_p["Titolarità"] = 1.0
         df_k["Titolarità"] = 1.0
@@ -117,7 +117,7 @@ def compute_scores(df_players, df_keepers, df_teams, prob_set, calendario,
     # -----------------------
     # GOALKEEPERS
     # -----------------------
-    forma_gk = normalize_pos_only_numba(((df_k["Save%"] + df_k["PSxG+/-"]) / 2).to_numpy(float))
+    forma_gk = normalize_pos_only_numba((df_k["Save%"].to_numpy(float) + df_k["PSxG+/-"].to_numpy(float)) / 2)
     bonuspot_gk = normalize_numba(df_k["CS%"].to_numpy(float))
     affid_gk = normalize_numba((df_k["Starts"].to_numpy(float) / df_k["MP"].to_numpy(float)))
     opp_metric_gk = df_k["Squad"].map(team_to_xg).fillna(1.0).to_numpy(float)
