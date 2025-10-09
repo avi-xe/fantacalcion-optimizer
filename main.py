@@ -52,4 +52,4 @@ def main(matchweek):
 
 
 if __name__ == "__main__":
-    main(6)
+    main(7)

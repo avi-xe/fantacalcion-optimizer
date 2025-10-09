@@ -31,21 +31,21 @@
       "Vranckx",
       "Matic",
       "Koné I.",
-      "Volpato",
+      "Berardi",
       "Pinamonti",
       "Laurienté"
     ],
     "ballottaggi": [
       {
         "side": "",
-        "player": "Veiga-Kouassi 55-45% Walukiewicz-Coulibaly 51-49% Vranckx-Thorstvedt 51-49%"
+        "player": "Veiga-Kouassi 55-45% Walukiewicz-Coulibaly 51-49% Vranckx-Thorstvedt 51-49% Berardi-Volpato 51-49%"
       }
     ],
     "squalificati": [],
     "indisponibili": [
       {
         "side": "",
-        "player": "Jean, Marchwinski, Perez, Morente Paz, Pieragnolo, Berardi"
+        "player": "Jean, Marchwinski, Perez, Morente Paz, Pieragnolo"
       }
     ],
     "diffidati": [],
@@ -84,7 +84,7 @@
       "Vranckx",
       "Matic",
       "Koné I.",
-      "Volpato",
+      "Berardi",
       "Pinamonti",
       "Laurienté",
       "Ballottaggi",
@@ -238,7 +238,7 @@
     "indisponibili": [
       {
         "side": "",
-        "player": "Schuurs, Ismajli, Anjorin, Ilic Lukaku, Contini, Mazzocchi, Buongiorno, Rrahmani, Lobotka, Milinkovic, Politano"
+        "player": "Schuurs, Ismajli, Anjorin, Ilic Lukaku, Contini, Mazzocchi, Buongiorno, Rrahmani, Lobotka, Politano"
       }
     ],
     "diffidati": [],
@@ -325,7 +325,7 @@
     "ballottaggi": [
       {
         "side": "",
-        "player": "Wesley-Rensch 51-49% Angelino-Tsimikas 51-49% Pellegrini-Dybala 51-49% Dovbyk-Ferguson 51-49% Mkhitaryan-Sucic 51-49% Bonny-Esposito 51-49%"
+        "player": "Wesley-Rensch 51-49% Angelino-Tsimikas 51-49% Pellegrini-Dybala 51-49% Dovbyk-Ferguson 51-49% Mkhitaryan-Sucic 51-49% Martinez L.-Esposito 51-49%"
       }
     ],
     "squalificati": [],
@@ -706,7 +706,7 @@
     "ballottaggi": [
       {
         "side": "",
-        "player": "Samardzic-Pasalic 51-49% Sulemana-Lookman 55-45% Basic-Belahyane 51-49%"
+        "player": "Samardzic-De Ketelaere 70-30% Sulemana-Lookman 55-45% Basic-Belahyane 51-49%"
       }
     ],
     "squalificati": [],
@@ -756,7 +756,7 @@
       "Castellanos",
       "Pedro",
       "Ballottaggi",
-      "Samardzic-Pasalic 51-49%",
+      "Samardzic-De Ketelaere 70-30%",
       "Sulemana-Lookman 55-45%",
       "Basic-Belahyane 51-49%"
     ]

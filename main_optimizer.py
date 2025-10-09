@@ -4,6 +4,7 @@ import pandas as pd
 import random
 from numba import njit, prange
 from optimizer.best_eleven import best_eleven
+from optimizer.process import preprocess_features
 from scraping.scraping_fantacalcio import crea_chiave_giocatore, load_fantacalcio_votes
 
 # ---------------- Load Data ----------------
