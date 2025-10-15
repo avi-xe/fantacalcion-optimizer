@@ -15,18 +15,15 @@ def normalize_array(arr):
     return out
 
 
-def weighted_metric(df, metrics, min_col="Min"):
+def weighted_metric(df, metrics, min_col="90s"):
     all_values = 0
     for metric in metrics:
         all_values += df[metric].values
     base_forma = all_values.astype(np.float32)
     minutes = df[min_col].values.astype(np.float32)
 
-    # Compute a reliability weight: from 0 to 1, saturating around 900 min
-    reliability = np.clip(minutes / 900.0, 0, 1)
-
     # Weighted forma reduces small-sample inflation
-    weighted = base_forma * reliability
+    weighted = base_forma * minutes
 
     return normalize_array(weighted)
 
@@ -37,7 +34,8 @@ def preprocess_features(df_players, df_keepers, df_teams, prob_set, calendario):
     # Convert numeric
     numeric_cols_players = ["%xG", "%xAG", "%G+A",
                             "Starts", "MP", "Min", "CrdY", "CrdR"]
-    numeric_cols_keepers = ["Save%", "PSxG+/-", "CS%", "Starts", "MP", "Min", "GA90"]
+    numeric_cols_keepers = ["Save%", "PSxG+/-",
+                            "CS%", "Starts", "MP", "Min", "GA90"]
     df_players[numeric_cols_players] = df_players[numeric_cols_players].fillna(
         0).astype(np.float32)
     df_keepers[numeric_cols_keepers] = df_keepers[numeric_cols_keepers].fillna(
