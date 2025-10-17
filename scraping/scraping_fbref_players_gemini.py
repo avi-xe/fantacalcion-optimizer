@@ -51,9 +51,9 @@ def scrape_fbref_second_level_header(url, table_id) -> pd.DataFrame:
         new_columns = []
         for top, bottom in df.columns:
             if top == "Per 90 Minutes":
-                new_columns.append(f"%{bottom}")
+                new_columns.append(f"{bottom}_per90")
             elif top == "Penalty Kicks":
-                new_columns.append(f"PK{bottom}")
+                new_columns.append(f"{bottom}_PK")
             else:
                 new_columns.append(bottom)
         df.columns = new_columns
@@ -75,12 +75,57 @@ def scrape_fbref_second_level_header(url, table_id) -> pd.DataFrame:
         return None
 
 
-def fetch_giocatori(url_serie_a='https://fbref.com/en/comps/11/stats/Serie-A-Stats') -> pd.DataFrame:
-    # Dati per la Serie A
-    id_statistiche_giocatori = 'stats_standard'
+PLACEHOLDERS = ['stats', 'shooting', 'passing', 'passing_types',
+                'gca', 'defense', 'possession', 'playingtime', 'misc']
+URLS = [
+    f'https://fbref.com/en/comps/11/{placeholder}/Serie-A-Stats' for placeholder in PLACEHOLDERS]
 
+
+def fetch_giocatori() -> pd.DataFrame:
     # Esegui lo scraping
-    return scrape_fbref_second_level_header(url_serie_a, id_statistiche_giocatori)
+    df = scrape_fbref_second_level_header(URLS[0], 'stats_standard')
+    df2 = scrape_fbref_second_level_header(URLS[1], 'stats_shooting')
+    different_columns = df2.columns.difference(df.columns)
+    df2 = df2[different_columns]
+    df = pd.merge(df, df2, left_index=True,
+                  right_index=True, how='inner')
+    df2 = scrape_fbref_second_level_header(URLS[2], 'stats_passing')
+    different_columns = df2.columns.difference(df.columns)
+    df2 = df2[different_columns]
+    df = pd.merge(df, df2, left_index=True,
+                  right_index=True, how='inner')
+
+    df2 = scrape_fbref_second_level_header(URLS[3], 'stats_passing_types')
+    different_columns = df2.columns.difference(df.columns)
+    df2 = df2[different_columns]
+    df = pd.merge(df, df2, left_index=True,
+                  right_index=True, how='inner')
+    df2 = scrape_fbref_second_level_header(URLS[4], 'stats_gca')
+    different_columns = df2.columns.difference(df.columns)
+    df2 = df2[different_columns]
+    df = pd.merge(df, df2, left_index=True,
+                  right_index=True, how='inner')
+    df2 = scrape_fbref_second_level_header(URLS[5], 'stats_defense')
+    different_columns = df2.columns.difference(df.columns)
+    df2 = df2[different_columns]
+    df = pd.merge(df, df2, left_index=True,
+                  right_index=True, how='inner')
+    df2 = scrape_fbref_second_level_header(URLS[6], 'stats_possession')
+    different_columns = df2.columns.difference(df.columns)
+    df2 = df2[different_columns]
+    df = pd.merge(df, df2, left_index=True,
+                  right_index=True, how='inner')
+    df2 = scrape_fbref_second_level_header(URLS[7], 'stats_playing_time')
+    different_columns = df2.columns.difference(df.columns)
+    df2 = df2[different_columns]
+    df = pd.merge(df, df2, left_index=True,
+                  right_index=True, how='inner')
+    df2 = scrape_fbref_second_level_header(URLS[8], 'stats_misc')
+    different_columns = df2.columns.difference(df.columns)
+    df2 = df2[different_columns]
+    df = pd.merge(df, df2, left_index=True,
+                  right_index=True, how='inner')
+    return df
 
 
 def giocatori(df_giocatori) -> pd.DataFrame:

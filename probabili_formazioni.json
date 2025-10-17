@@ -132,7 +132,7 @@
     "ballottaggi": [
       {
         "side": "",
-        "player": "Cuadrado-Angori 51-49% Vural-Hojholt 51-49% Tramoni-Moreo 51-49% Frese-Valentini 51-49% Gagliardini-Akpa Akpro 55-45%"
+        "player": "Bonfanti-Albiol 60-40% Cuadrado-Angori 51-49% Vural-Hojholt 51-49% Tramoni-Moreo 51-49% Frese-Valentini 51-49% Gagliardini-Akpa Akpro 55-45%"
       }
     ],
     "squalificati": [
@@ -144,7 +144,7 @@
     "indisponibili": [
       {
         "side": "",
-        "player": "Stengs, Esteves, Aebischer Suslov, Harroui, Oyegoke, Al Musrati"
+        "player": "Stengs, Esteves, Aebischer Suslov, Oyegoke, Al Musrati"
       }
     ],
     "diffidati": [],
@@ -187,9 +187,9 @@
       "Giovane",
       "Orban",
       "Ballottaggi",
+      "Bonfanti-Albiol 60-40%",
       "Cuadrado-Angori 51-49%",
-      "Vural-Hojholt 51-49%",
-      "Tramoni-Moreo 51-49%"
+      "Vural-Hojholt 51-49%"
     ]
   },
   {
@@ -216,7 +216,7 @@
       "Vlasic"
     ],
     "in_campo_ospite": [
-      "Meret",
+      "Milinkovic",
       "Di Lorenzo",
       "Beukema",
       "Juan Jesus",
@@ -231,14 +231,14 @@
     "ballottaggi": [
       {
         "side": "",
-        "player": "Pedersen-Biraghi 51-49% Tameze-Gineitis 51-49% Meret-Milinkovic 51-49%"
+        "player": "Pedersen-Biraghi 51-49% Tameze-Gineitis 51-49% Milinkovic-Meret 51-49% Beukema-Marianucci 55-45% Neres-Elmas 55-45%"
       }
     ],
     "squalificati": [],
     "indisponibili": [
       {
         "side": "",
-        "player": "Schuurs, Ismajli, Anjorin, Ilic Lukaku, Contini, Mazzocchi, Buongiorno, Rrahmani, Lobotka, Politano"
+        "player": "Schuurs, Ismajli, Anjorin, Ilic Lukaku, Contini, Rrahmani, Lobotka"
       }
     ],
     "diffidati": [],
@@ -269,7 +269,7 @@
       "Ngonge",
       "Simeone",
       "Vlasic",
-      "Meret",
+      "Milinkovic",
       "Di Lorenzo",
       "Beukema",
       "Juan Jesus",
@@ -283,7 +283,7 @@
       "Ballottaggi",
       "Pedersen-Biraghi 51-49%",
       "Tameze-Gineitis 51-49%",
-      "Meret-Milinkovic 51-49%"
+      "Milinkovic-Meret 51-49%"
     ]
   },
   {
@@ -325,14 +325,14 @@
     "ballottaggi": [
       {
         "side": "",
-        "player": "Wesley-Rensch 51-49% Tsimikas-Angelino 51-49% Pellegrini-Dybala 51-49% Dovbyk-Ferguson 51-49% Sommer-Martinez 55-45% Mkhitaryan-Sucic 51-49% Martinez L.-Esposito 51-49%"
+        "player": "Wesley-Rensch 51-49% Pellegrini-Dybala 51-49% Dovbyk-Ferguson 51-49% Sommer-Martinez 55-45% Mkhitaryan-Sucic 51-49% Bonny-Esposito 51-49%"
       }
     ],
     "squalificati": [],
     "indisponibili": [
       {
         "side": "",
-        "player": "Bailey Thuram"
+        "player": "Thuram, Di Gennaro, Darmian"
       }
     ],
     "diffidati": [],
@@ -376,8 +376,8 @@
       "Martinez L.",
       "Ballottaggi",
       "Wesley-Rensch 51-49%",
-      "Tsimikas-Angelino 51-49%",
-      "Pellegrini-Dybala 51-49%"
+      "Pellegrini-Dybala 51-49%",
+      "Dovbyk-Ferguson 51-49%"
     ]
   },
   {
@@ -431,7 +431,7 @@
     "indisponibili": [
       {
         "side": "",
-        "player": "Diao, Dossena, Van der Brempt, Sergi Roberto, Kuhn, Addai Milik, Miretti, Cabal, Bremer"
+        "player": "Diao, Dossena, Van der Brempt, Sergi Roberto, Kuhn, Addai Milik, Miretti, Cabal, Bremer, Pinsoglio"
       }
     ],
     "diffidati": [],
@@ -504,9 +504,9 @@
     ],
     "in_campo_ospite": [
       "Skorupski",
-      "Holm",
+      "Zortea",
       "Heggem",
-      "Lucumì",
+      "Vitik",
       "Lykogiannis",
       "Freuler",
       "Ferguson",
@@ -518,7 +518,7 @@
     "ballottaggi": [
       {
         "side": "",
-        "player": "Adopo-Felici 51-49% Borrelli-Luvumbo 51-49% Holm-Zortea 51-49% Heggem-Vitik 51-49% Lykogiannis-Miranda 55-45%"
+        "player": "Adopo-Felici 51-49% Borrelli-Luvumbo 55-45% Zortea-Holm 51-49% Heggem-Lucumì 51-49% Lykogiannis-Miranda 51-49%"
       }
     ],
     "squalificati": [],
@@ -557,9 +557,9 @@
       "Esposito Se.",
       "Borrelli",
       "Skorupski",
-      "Holm",
+      "Zortea",
       "Heggem",
-      "Lucumì",
+      "Vitik",
       "Lykogiannis",
       "Freuler",
       "Ferguson",
@@ -569,8 +569,8 @@
       "Castro",
       "Ballottaggi",
       "Adopo-Felici 51-49%",
-      "Borrelli-Luvumbo 51-49%",
-      "Holm-Zortea 51-49%"
+      "Borrelli-Luvumbo 55-45%",
+      "Zortea-Holm 51-49%"
     ]
   },
   {
@@ -692,7 +692,7 @@
     ],
     "in_campo_ospite": [
       "Provedel",
-      "Hysaj",
+      "Marusic",
       "Gila",
       "Romagnoli",
       "Tavares",
@@ -700,20 +700,20 @@
       "Cataldi",
       "Basic",
       "Cancellieri",
-      "Pedro",
-      "Isaksen"
+      "Dia",
+      "Pedro"
     ],
     "ballottaggi": [
       {
         "side": "",
-        "player": "Ederson-Pasalic 51-49% Samardzic-De Ketelaere 51-49% Sulemana-Lookman 55-45% Basic-Belahyane 51-49% Isaksen-Noslin 51-49%"
+        "player": "Ederson-Pasalic 51-49% Samardzic-De Ketelaere 51-49% Sulemana-Lookman 55-45% Marusic-Lazzari 51-49% Tavares-Hysaj 70-30% Basic-Belahyane 51-49% Dia-Noslin 55-45% Pedro-Zaccagni 51-49%"
       }
     ],
     "squalificati": [],
     "indisponibili": [
       {
         "side": "",
-        "player": "Kolasinac, Bakker, Bellanova, Kossounou Gigot, Dele-Bashiru, Rovella, Marusic, Pellegrini Lu., Zaccagni, Castellanos"
+        "player": "Kolasinac, Bakker, Bellanova, Kossounou Gigot, Dele-Bashiru, Rovella, Pellegrini Lu., Castellanos"
       }
     ],
     "diffidati": [],
@@ -745,7 +745,7 @@
       "Sulemana",
       "Krstovic",
       "Provedel",
-      "Hysaj",
+      "Marusic",
       "Gila",
       "Romagnoli",
       "Tavares",
@@ -753,8 +753,8 @@
       "Cataldi",
       "Basic",
       "Cancellieri",
+      "Dia",
       "Pedro",
-      "Isaksen",
       "Ballottaggi",
       "Ederson-Pasalic 51-49%",
       "Samardzic-De Ketelaere 51-49%",
@@ -776,23 +776,23 @@
       "Tomori",
       "Gabbia",
       "Pavlovic",
-      "Athekame",
+      "Saelemaekers",
       "Fofana",
       "Modric",
-      "Rabiot",
-      "Estupinan",
+      "Loftus-Cheek",
+      "Bartesaghi",
       "Gimenez",
-      "Pulisic"
+      "Leao"
     ],
     "in_campo_ospite": [
       "De Gea",
-      "Pongracic",
+      "Comuzzo",
       "Marì",
       "Ranieri",
       "Dodo",
       "Mandragora",
       "Nicolussi Caviglia",
-      "Ndour",
+      "Fazzini",
       "Gosens",
       "Piccoli",
       "Gudmundsson"
@@ -800,14 +800,14 @@
     "ballottaggi": [
       {
         "side": "",
-        "player": "Estupinan-Bartesaghi 60-40% Gimenez-Nkunku 60-40% Pulisic-Leao 55-45% Marì-Comuzzo 51-49% Nicolussi Caviglia-Fagioli 55-45% Ndour-Fagioli 51-49% Piccoli-Dzeko 55-45%"
+        "player": "Saelemaekers-Athekame 51-49% Leao-Nkunku 51-49% Comuzzo-Pongracic 51-49% Nicolussi Caviglia-Fagioli 55-45% Fazzini-Ndour 51-49% Piccoli-Dzeko 55-45%"
       }
     ],
     "squalificati": [],
     "indisponibili": [
       {
         "side": "",
-        "player": "Jashari, Saelemaekers Lamptey"
+        "player": "Jashari, Pulisic, Rabiot Lamptey"
       }
     ],
     "diffidati": [],
@@ -831,28 +831,28 @@
       "Tomori",
       "Gabbia",
       "Pavlovic",
-      "Athekame",
+      "Saelemaekers",
       "Fofana",
       "Modric",
-      "Rabiot",
-      "Estupinan",
+      "Loftus-Cheek",
+      "Bartesaghi",
       "Gimenez",
-      "Pulisic",
+      "Leao",
       "De Gea",
-      "Pongracic",
+      "Comuzzo",
       "Marì",
       "Ranieri",
       "Dodo",
       "Mandragora",
       "Nicolussi Caviglia",
-      "Ndour",
+      "Fazzini",
       "Gosens",
       "Piccoli",
       "Gudmundsson",
       "Ballottaggi",
-      "Estupinan-Bartesaghi 60-40%",
-      "Gimenez-Nkunku 60-40%",
-      "Pulisic-Leao 55-45%"
+      "Saelemaekers-Athekame 51-49%",
+      "Leao-Nkunku 51-49%",
+      "Comuzzo-Pongracic 51-49%"
     ]
   },
   {
@@ -870,7 +870,7 @@
       "Ceccherini",
       "Baschirotto",
       "Bianchetti",
-      "Floriani M.",
+      "Zerbin",
       "Grassi",
       "Bondo",
       "Vandeputte",
@@ -894,14 +894,14 @@
     "ballottaggi": [
       {
         "side": "",
-        "player": "Floriani-Zerbin 51-49% Vandeputte-Payero 51-49% Vardy-Sanabria 51-49% Vazquez-Bonazzoli 51-49% Okoye-Sava 51-49% Zanoli-Ehizibue 51-49% Piotrowski-Lovric 51-49% Kamara-Zemura 51-49% Zaniolo-Bayo 55-45%"
+        "player": "Silvestri-Audero 51-49% Ceccherini-Terracciano 51-49% Zerbin-Floriani 51-49% Vandeputte-Payero 51-49% Vardy-Sanabria 51-49% Vazquez-Bonazzoli 51-49% Okoye-Sava 51-49% Zanoli-Ehizibue 51-49% Piotrowski-Lovric 51-49% Kamara-Zemura 51-49% Zaniolo-Bravo 51-49%"
       }
     ],
     "squalificati": [],
     "indisponibili": [
       {
         "side": "",
-        "player": "Collocolo, Moumbagna, Terracciano, Audero Kristensen,"
+        "player": "Collocolo, Moumbagna, Kristensen,"
       }
     ],
     "diffidati": [],
@@ -925,7 +925,7 @@
       "Ceccherini",
       "Baschirotto",
       "Bianchetti",
-      "Floriani M.",
+      "Zerbin",
       "Grassi",
       "Bondo",
       "Vandeputte",
@@ -944,9 +944,9 @@
       "Davis",
       "Zaniolo",
       "Ballottaggi",
-      "Floriani-Zerbin 51-49%",
-      "Vandeputte-Payero 51-49%",
-      "Vardy-Sanabria 51-49%"
+      "Silvestri-Audero 51-49%",
+      "Ceccherini-Terracciano 51-49%",
+      "Zerbin-Floriani 51-49%"
     ]
   }
 ]
